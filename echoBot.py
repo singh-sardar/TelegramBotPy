@@ -1,4 +1,4 @@
-#1101563855:AAHzHslpU31SdfB9J6GnT95jiDpX7YvO-Kg
+# -*- coding: utf-8 -*-
 """
 Simple Bot to reply to Telegram messages.
 First, a few handler functions are defined. Then, those functions are passed to
@@ -47,7 +47,7 @@ def error(update: Update, context: CallbackContext):
 def main():
     """Start the bot."""
 
-    logger.info("Entering Main")
+    logger.info("Entering Main ECHOBOT")
 
     # Create the Updater and pass it your bot's token.
     # Make sure to set use_context=True to use the new context based callbacks
